@@ -1,44 +1,14 @@
-[
-  {
-    "_id": "5b0026e222a297c0e6b7325c",
-    "age": 25,
-    "name": "Cassie Ortega",
-    "gender": "female",
-    "email": "cassieortega@comstruct.com"
-  },
-  {
-    "_id": "5b0026e21d5007655839ce5e",
-    "age": 40,
-    "name": "Lorrie Morton",
-    "gender": "female",
-    "email": "lorriemorton@comstruct.com"
-  },
-  {
-    "_id": "5b0026e2da518c7b741eec9d",
-    "age": 27,
-    "name": "Howe Poole",
-    "gender": "male",
-    "email": "howepoole@comstruct.com"
-  },
-  {
-    "_id": "5b0026e255755d5683c834eb",
-    "age": 23,
-    "name": "Floyd Estrada",
-    "gender": "male",
-    "email": "floydestrada@comstruct.com"
-  },
-  {
-    "_id": "5b0026e2ddbe4d2af76b3fe6",
-    "age": 36,
-    "name": "Ross Ayala",
-    "gender": "male",
-    "email": "rossayala@comstruct.com"
-  },
-  {
-    "_id": "5b0026e2ffa2d13b44256a92",
-    "age": 26,
-    "name": "Ferguson Smith",
-    "gender": "male",
-    "email": "fergusonsmith@comstruct.com"
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
